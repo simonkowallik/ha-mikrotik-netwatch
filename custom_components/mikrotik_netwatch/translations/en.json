@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MikroTik Netwatch",
+        "description": "Use MikroTik RouterOS netwatch monitoring as sensors in Home Assistant",
+        "data": {
+          "host": "Mikrotik Host (IP address or hostname, optional with :<port>)",
+          "username": "Username",
+          "password": "Password",
+          "scan_interval": "Scan interval (seconds)",
+          "ignore_ssl": "Ignore SSL certificate errors"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to MikroTik device. Please check your connection details.",
+      "unknown": "Unexpected error occurred"
+    }
+  }
+}
