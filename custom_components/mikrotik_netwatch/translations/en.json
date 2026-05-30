@@ -5,7 +5,7 @@
         "title": "MikroTik Netwatch",
         "description": "Use MikroTik RouterOS netwatch monitoring as sensors in Home Assistant",
         "data": {
-          "host": "Mikrotik Host (IP address or hostname, optional with :<port>)",
+          "host": "Mikrotik Host, the IP address or hostname, optional with :port",
           "username": "Username",
           "password": "Password",
           "scan_interval": "Scan interval (seconds)",
